@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+		img, picture{
+				width: 100%;
+				height: auto;
+        display: block;
+		}
+	</style>
+</head>
+<body>
+
+<p>Du texte avant</p>
+
+<picture>
+	<source srcset="400b.jpg" media="(max-width: 500px)">
+	<source srcset="900.jpg" media="(max-width: 1400px)">
+	<img src="1400.jpg" alt="" />
+</picture>
+
+<p>Du texte après</p>
+
+</body>
+</html>
